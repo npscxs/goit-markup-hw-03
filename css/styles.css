@@ -1,0 +1,201 @@
+body {
+  background: #fff;
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+}
+
+/* Tag rules */
+a {
+  text-decoration: none;
+}
+h1 {
+  font-size: 56px;
+  font-style: normal;
+  line-height: 1.07; /* 107.143% */
+  letter-spacing: 1.12px;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* Class rules */
+
+/* Logo Web studio */
+.top-line .logo-up {
+  color: #4d5ae5;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.17; /* 116.667% */
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+.top-line .logo-up-word {
+  color: #2e2f42;
+}
+
+/* Navigation */
+.top-line .link {
+  color: #2e2f42;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.32px;
+}
+
+.top-line .link:hover {
+  color: #404bbf;
+}
+.top-line .link:focus {
+  color: #404bbf;
+}
+.top-line .link:active {
+  color: #404bbf;
+}
+
+/* Contact */
+.adress {
+  font-style: normal;
+}
+
+.adress .contact {
+  color: #434455;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.32px;
+}
+
+address .contact:hover {
+  color: #404bbf;
+}
+
+address .contact:active {
+  color: #404bbf;
+}
+address .contact:focus {
+  color: #404bbf;
+}
+
+/* Title */
+.section-title {
+  background-color: #2e2f42;
+}
+.section-title .title {
+  color: #fff;
+  text-align: center;
+}
+.section-title .button-to-serwis {
+  color: #ffffff;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  font-weight: 500;
+  background: #4d5ae5;
+}
+.section-title .button-to-serwis:hover {
+  background: #404bbf;
+}
+.section-title .button-to-serwis:active {
+  background: #404bbf;
+}
+.section-title .button-to-serwis:focus {
+  background: #404bbf;
+  color: #404bbf;
+}
+/* Features */
+.features-name {
+  color: #2e2f42;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2; /* 120% */
+  letter-spacing: 0.4px;
+}
+.features-text {
+  font-size: 16px;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.32px;
+}
+
+/* Team */
+.team {
+  background-color: #f4f4fd;
+}
+.team .team-title {
+  color: #2e2f42;
+  font-size: 36px;
+  font-style: normal;
+  line-height: 1.11; /* 111.111% */
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+  text-align: center;
+}
+.team .team-list {
+  background-color: #ffffff;
+}
+.team-list .team-name {
+  color: #2e2f42;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2; /* 120% */
+  letter-spacing: 0.4px;
+  text-align: center;
+}
+.team-list .team-profesion {
+  font-size: 16px;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.32px;
+  text-align: center;
+}
+
+/* Portfolio */
+.portfolio .portfolio-title {
+  text-align: center;
+  color: #2e2f42;
+  font-size: 36px;
+  font-style: normal;
+  line-height: 1.11; /* 111.111% */
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+.portfolio .portfolio-services {
+  color: #2e2f42;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2; /* 120% */
+  letter-spacing: 0.4px;
+}
+.portfolio .portfolio-services-chapter {
+  font-size: 16px;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.32px;
+}
+
+/* Foter */
+.down-line {
+  background-color: #2e2f42;
+}
+.down-line .logo-down {
+  color: #4d5ae5;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.17; /* 116.667% */
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+.down-line .logo-down-word {
+  color: #f4f4fd;
+}
+.down-line .text-paragrapf {
+  color: #f4f4fd;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
