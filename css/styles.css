@@ -2,9 +2,34 @@ body {
   background: #fff;
   font-family: "Roboto", sans-serif;
   color: #434455;
+  width: 1440px;
+  height: 3300px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
 /* Tag rules */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+img {
+  display: block;
+}
 a {
   text-decoration: none;
 }
@@ -198,4 +223,122 @@ address .contact:focus {
   color: #f4f4fd;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+
+/* modul 3 */
+/* header */
+.container {
+  display: flex;
+}
+.container .top-line {
+  display: flex;
+}
+.top-line .logo-up {
+  display: flex;
+  margin: 25.5px 0 25.5px 156px;
+}
+.top-line .top-line-link {
+  display: flex;
+  margin: 24px 0 24px 76px;
+  list-style: none;
+}
+.top-line-link li:not(:first-child) {
+  margin-left: 40px;
+}
+.container .adress {
+  margin: 24px 0 24px 332px;
+}
+
+.adress ul {
+  display: flex;
+  list-style: none;
+}
+.adress-contact li:last-child {
+  display: flex;
+  margin-left: 40px;
+}
+/* section1 */
+.section-title .container {
+  display: flex;
+  flex-direction: column;
+  width: 1440px;
+  height: 600px;
+  flex-shrink: 0;
+  align-items: center;
+}
+
+.container .title {
+  width: 496px;
+  margin: 188px 472px 48px 472px;
+}
+
+.container .button-to-serwis {
+  display: inline-flex;
+  padding: 16px 32px;
+  gap: 10px;
+  border-radius: 4px;
+  background: var(--IRIS, #4d5ae5);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+/* section2 */
+
+.container .features {
+  display: flex;
+  width: 1128px;
+  height: 104px;
+  flex-shrink: 0;
+  margin: 120px 156px;
+}
+
+.features .features-list {
+  display: flex;
+  width: 264px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+.features li:not(:first-child) {
+  padding-left: 40px;
+}
+
+/* section2 */
+.team .container {
+  display: flex;
+  flex-direction: column;
+  height: 732px;
+  flex-shrink: 0;
+  padding: 120px 156px;
+}
+
+.container .team-title {
+  text-align: center;
+  margin-bottom: 72px;
+}
+
+ul .team-list {
+  display: inline-flex;
+  padding-bottom: 32px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  width: calc((100%-72) / 4);
+  border-radius: 0px 0px 4px 4px;
+}
+
+li .info-person {
+  display: flex;
+  width: 232px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+ul .team-list:not(:first-child) {
+  margin-left: 24px;
+}
+.team-notitle {
+  flex-wrap: nowrap;
 }
