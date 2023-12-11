@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.css" />
     <link rel="stylesheet" href="./css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,7 +16,7 @@
 </head>
 
 <body>
-    <header>
+    <header class="header">
         <div class="container">
             <nav class="top-line">
                 <a href="./index.html" class="logo-up">Web<span class="logo-up-word">Studio</span></a>
@@ -43,9 +45,9 @@
             </div>
         </section>
         <!-- Features -->
-        <section>
+        <section class="section-features">
             <div class="container">
-                <h2></h2>
+                <h2 class="visually-hidden">Features</h2>
                 <ul class="features">
                     <li class="features-list">
                         <h3 class="features-name">Strategy</h3>
@@ -118,30 +120,48 @@
         <section class="portfolio">
             <div class="container">
                 <h2 class="portfolio-title"> Our Portfolio</h2>
-                <ul>
-                    <li><img src="./images/banking-app.jpg" alt="app" width="360" height="300" />
-                        <h3 class="portfolio-services">Banking App</h3>
-                        <p class="portfolio-services-chapter">App</p>
+                <ul class="portfolio-list">
+                    <li class="portfolio-list-item"><img src="./images/banking-app.jpg" alt="app" width="360"
+                            height="300" />
+                        <div class="portfolio-list-item-name">
+                            <h3 class="portfolio-services">Banking App</h3>
+                            <p class="portfolio-services-chapter">App</p>
+                        </div>
                     </li>
-                    <li><img src="./images/cashless-payment.jpg" alt="Payment" width="360" height="300" />
-                        <h3 class="portfolio-services">Cashless Payment</h3>
-                        <p class="portfolio-services-chapter">Marketing</p>
+                    <li class="portfolio-list-item"><img src="./images/cashless-payment.jpg" alt="Payment" width="360"
+                            height="300" />
+                        <div class="portfolio-list-item-name">
+                            <h3 class="portfolio-services">Cashless Payment</h3>
+                            <p class="portfolio-services-chapter">Marketing</p>
+                        </div>
                     </li>
-                    <li><img src="./images/meditation-app.jpg" alt="Meditation" width="360" height="300" />
-                        <h3 class="portfolio-services">Meditation App</h3>
-                        <p class="portfolio-services-chapter">App</p>
+                    <li class="portfolio-list-item"><img src="./images/meditation-app.jpg" alt="Meditation" width="360"
+                            height="300" />
+                        <div class="portfolio-list-item-name">
+                            <h3 class="portfolio-services">Meditation App</h3>
+                            <p class="portfolio-services-chapter">App</p>
+                        </div>
                     </li>
-                    <li><img src="./images/taxi-servise.jpg" alt="Taxi" width="360" height="300" />
-                        <h3 class="portfolio-services">Taxi Service</h3>
-                        <p class="portfolio-services-chapter">Marketing</p>
+                    <li class="portfolio-list-item"><img src="./images/taxi-servise.jpg" alt="Taxi" width="360"
+                            height="300" />
+                        <div class="portfolio-list-item-name">
+                            <h3 class="portfolio-services">Taxi Service</h3>
+                            <p class="portfolio-services-chapter">Marketing</p>
+                        </div>
                     </li>
-                    <li><img src="./images/screen-illustrations.jpg" alt="Screen" width="360" height="300" />
-                        <h3 class="portfolio-services">Screen Illustrations</h3>
-                        <p class="portfolio-services-chapter">Design</p>
+                    <li class="portfolio-list-item"><img src="./images/screen-illustrations.jpg" alt="Screen"
+                            width="360" height="300" />
+                        <div class="portfolio-list-item-name">
+                            <h3 class="portfolio-services">Screen Illustrations</h3>
+                            <p class="portfolio-services-chapter">Design</p>
+                        </div>
                     </li>
-                    <li><img src="./images/online-courses.jpg" alt="Courses" width="360" height="300" />
-                        <h3 class="portfolio-services">Online Courses</h3>
-                        <p class="portfolio-services-chapter">Marketing</p>
+                    <li class="portfolio-list-item"><img src="./images/online-courses.jpg" alt="Courses" width="360"
+                            height="300" />
+                        <div class="portfolio-list-item-name">
+                            <h3 class="portfolio-services">Online Courses</h3>
+                            <p class="portfolio-services-chapter">Marketing</p>
+                        </div>
                     </li>
                 </ul>
             </div>
