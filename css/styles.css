@@ -30,6 +30,9 @@ ol {
 img {
   display: block;
 }
+section {
+  padding: 120px 0;
+}
 a {
   text-decoration: none;
 }
